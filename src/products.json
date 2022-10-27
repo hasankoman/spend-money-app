@@ -1,0 +1,50 @@
+{
+  "sakiz": {
+    "id": 0,
+    "name": "Sakız",
+    "price": 0.5,
+    "image": "https://productimages.hepsiburada.net/s/22/375/9952480460850.jpg"
+  },
+  "kola": {
+    "id": 1,
+    "name": "Kola",
+    "price": 6,
+    "image": "https://ayb.akinoncdn.com/products/2019/01/18/1796/b792f041-5479-4d5f-a74e-233d5da474bc_size780x780_quality60_cropCenter.jpg"
+  },
+  "ayakkabi": {
+    "id": 2,
+    "name": "Ayakkabı",
+    "price": 400,
+    "image": "https://www.ayakkabicity.com/Uploads/UrunResimleri/buyuk/sanzelize-k-07-kadin-sneaker-ayakkabi-47cd.jpg"
+  },
+  "araba": {
+    "id": 3,
+    "name": "Araba",
+    "price": 40000,
+    "image": "https://cdn-nq.toyzzshop.com/product/600x600/0f06b_Metal_Cek_Birak_Murat_131_Araba.jpg"
+  },
+  "gemi": {
+    "id": 4,
+    "name": "Gemi",
+    "price": 80000000,
+    "image": "https://i.ibb.co/sCbmRKV/Ekran-Resmi-2021-04-16-13-45-31.png"
+  },
+  "1tl": {
+    "id": 5,
+    "name": "1 TL",
+    "price": 0.12,
+    "image": "https://iasbh.tmgrup.com.tr/802b79/0/0/0/0/0/0?u=http://i.sabah.com.tr/sb/galeri/dunya/1-tlnin-diger-ulke-paralari-karsisindaki-degeri/1.jpg"
+  },
+  "ipad-pro": {
+    "id": 6,
+    "name": "Ipad Pro",
+    "price": 1700,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/TeoriV2-106818-1_large.jpg"
+  },
+  "ekmek": {
+    "id": 7,
+    "name": "Ekmek",
+    "price": 0.1,
+    "image": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05120000/05120000-a957e2.jpg"
+  }
+}

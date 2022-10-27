@@ -1,13 +1,133 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+* {
+  margin: 0;
+  border: 0;
+  outline: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+.money-info {
+  height: 55px;
+  background: linear-gradient(to bottom, #20b820, #14be2a);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 21px;
+  letter-spacing: 1.5px;
+}
+.container {
+  margin: 20px auto;
+  width: 1000px;
+}
+.products-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product {
+  padding: 10px;
+  background-color: white;
+  width: 200px;
+  margin-bottom: 10px;
+  height: auto;
+  border: 1px solid #ddd;
+}
+.product div {
+  margin-bottom: 8px;
+}
+.product .name {
+  font-weight: 600;
+  font-size: 18px;
+}
+.product .price {
+  color: #179b17;
+}
+.product img {
+  width: 200px;
+  height: 200px;
+}
+.product-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.product-buttons button.sell {
+  background: #ccc;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  border-radius: 4px 0 0 4px;
+}
+.product-buttons button.buy {
+  background: #61dafb;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 0 4px 4px 0;
+}
+.product-buttons button {
+  height: 35px;
+  cursor: pointer;
+  flex: 1;
+}
+.product-buttons span {
+  height: 33px;
+  border: 1px solid #ddd;
+  width: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shopping-detail {
+  padding: 14px;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+.shopping-detail header {
+  font-size: 20px;
+}
+.shopping {
+  font-size: 14px;
+  padding: 12px 7px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+.shopping span {
+  color: #999;
+  font-size: 13px;
+}
+.summary {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.summary p {
+  font-weight: 600;
+  font-size: 17px;
+  color: #14be2a;
+}
+.summary button {
+  padding: 7px 12px;
+  background-color: #61dafb;
+  cursor: pointer;
 }
