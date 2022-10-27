@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/spend-money-app/static/css/main.4fcfb0be.css",
+    "main.js": "/spend-money-app/static/js/main.c6f9fb3c.js",
+    "index.html": "/spend-money-app/index.html",
+    "main.4fcfb0be.css.map": "/spend-money-app/static/css/main.4fcfb0be.css.map",
+    "main.c6f9fb3c.js.map": "/spend-money-app/static/js/main.c6f9fb3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fcfb0be.css",
+    "static/js/main.c6f9fb3c.js"
+  ]
+}
